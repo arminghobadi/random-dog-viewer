@@ -1,0 +1,7 @@
+.dog-viewer-container .inner-div {
+  justify-content: space-around;
+}
+
+.dog-viewer-container .wrapper {
+  width: 100%;
+}

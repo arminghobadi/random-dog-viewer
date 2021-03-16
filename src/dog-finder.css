@@ -1,0 +1,21 @@
+.dog-finder-container > .inputs-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dog-finder-container > .inputs-section > .each-input-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.dog-finder-container > .inputs-section > .each-input-section > .input-title {
+  padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dog-finder-container > .inputs-section {
+    flex-direction: column;
+  }
+}

@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { App } from './App';
 import reportWebVitals from './reportWebVitals';
+
+String.prototype.capitalize = function() {
+  return this.charAt(0).toUpperCase() + this.slice(1)
+}
 
 ReactDOM.render(
   <React.StrictMode>

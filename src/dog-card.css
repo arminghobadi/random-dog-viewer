@@ -1,0 +1,17 @@
+.dog-card-container {
+  padding: 10px 5px;
+  height: 100%;
+}
+
+.dog-card-container > .dog-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.dog-card-container > .dog-card > .breed {
+  padding: 10px 0 25px 0;
+}
